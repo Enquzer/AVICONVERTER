@@ -1,0 +1,10 @@
+# Generated distribution package (duplicate of the source tree)
+dist/
+
+# Third-party FFmpeg binaries. Each is larger than GitHub's 100 MB file limit.
+# Run: avi-convert.exe --setup-ffmpeg
+bin/ffmpeg.exe
+bin/ffprobe.exe
+
+# Local install marker
+.ffavi-install
